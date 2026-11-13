@@ -37,7 +37,7 @@ mkdir ex01dir ; touch ex01dir/labex.txt; curl https://www.skenz.it/listing/os/la
 cat ex01dir/labex.txt | wc -w
 
 count the number of active processes in the system who are owned by the user “root” (Suggestion: use the command man ps to analyze the option -U of the command).
-
+ps -U root -u root u | wc -l 
 
 */
 
